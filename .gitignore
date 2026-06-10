@@ -10,6 +10,8 @@ reports/*.md
 !reports/.gitkeep
 output/*
 !output/.gitkeep
+interview-prep/*
+!interview-prep/story-bank.md
 batch/logs/*
 !batch/logs/.gitkeep
 batch/batch-state.tsv
