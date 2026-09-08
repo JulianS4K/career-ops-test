@@ -1,7 +1,9 @@
 # Personal data (user fills these)
 cv.md
+article-digest.md
 data/applications.md
 data/pipeline.md
+data/follow-ups.md
 data/scan-history.tsv
 data/parser-output/**/*.json
 !data/parser-output/.gitkeep
