@@ -29,6 +29,7 @@ writing-samples/*
 config/profile.yml
 portals.yml
 modes/_profile.md
+interview-prep/story-bank.md
 .update-dismissed
 .update-lock
 

@@ -80,6 +80,7 @@ node doctor.mjs --json
 Output: `{"onboardingNeeded": <bool>, "missing": [...]}`, where `missing` lists whichever of `cv.md`, `config/profile.yml`, `modes/_profile.md`, `portals.yml` are absent.
 
 - If `modes/_profile.md` is in `missing`, copy it silently from `modes/_profile.template.md` (the user's customization file — never overwritten by updates). It's then resolved.
+- Likewise, if `interview-prep/story-bank.md` is absent, copy it silently from `interview-prep/story-bank.template.md`. It accumulates the user's STAR+R stories, so it is user-layer and never overwritten by updates.
 - **If, after that, `onboardingNeeded` is still true (any of `cv.md` / `config/profile.yml` / `portals.yml` is missing), enter onboarding mode.** Do NOT proceed with evaluations, scans, or any other mode until the basics are in place. Guide the user step by step:
 
 #### Step 1: CV (required)
