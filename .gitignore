@@ -1,7 +1,9 @@
 # Personal data (user fills these)
 cv.md
+article-digest.md
 data/applications.md
 data/pipeline.md
+data/follow-ups.md
 data/scan-history.tsv
 data/parser-output/**/*.json
 !data/parser-output/.gitkeep
@@ -27,6 +29,12 @@ writing-samples/*
 config/profile.yml
 portals.yml
 modes/_profile.md
+# interview-prep/ is User Layer in CLAUDE.md/AGENTS.md ("interview-prep/*"):
+# the story bank, plus per-company intel reports written by modes/interview-prep.md
+# (interview-prep/{company}-{role}.md) and any other prep the user accumulates.
+# Ignore the directory, keep the shipped scaffold tracked.
+interview-prep/*
+!interview-prep/story-bank.template.md
 .update-dismissed
 .update-lock
 

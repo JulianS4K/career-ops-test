@@ -12,7 +12,7 @@ These files contain your personal data, customizations, and work product. Update
 | `config/profile.yml` | Your identity, targets, comp range |
 | `modes/_profile.md` | Your archetypes, narrative, negotiation scripts |
 | `article-digest.md` | Your proof points from portfolio |
-| `interview-prep/story-bank.md` | Your accumulated STAR+R stories |
+| `interview-prep/*` | Your interview material: the STAR+R story bank (seeded from `interview-prep/story-bank.template.md`), per-company intel reports written by `modes/interview-prep.md`, and any other prep you accumulate |
 | `portals.yml` | Your customized company list |
 | `data/applications.md` | Your application tracker |
 | `data/pipeline.md` | Your URL inbox |
