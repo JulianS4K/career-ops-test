@@ -29,12 +29,6 @@ writing-samples/*
 config/profile.yml
 portals.yml
 modes/_profile.md
-# interview-prep/ is User Layer in CLAUDE.md/AGENTS.md ("interview-prep/*"):
-# the story bank, plus per-company intel reports written by modes/interview-prep.md
-# (interview-prep/{company}-{role}.md) and any other prep the user accumulates.
-# Ignore the directory, keep the shipped scaffold tracked.
-interview-prep/*
-!interview-prep/story-bank.template.md
 .update-dismissed
 .update-lock
 
@@ -93,6 +87,7 @@ batch/batch-state-recovery.d/
 *简历*
 *学位*
 *成绩单*
+interview-prep/*
 !interview-prep/
 !interview-prep/.gitkeep
 # Session transcripts hold real interviewer names/companies — ignore content,
